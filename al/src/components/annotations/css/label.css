@@ -1,0 +1,35 @@
+.label-div {
+  padding: 0.5em 0;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #32213A;
+}
+
+.label-btn, .label-btn:focus, .label-btn:active {
+  margin-bottom: 0.3em;
+  margin-right: 0.5em;
+  padding: 0.4em;
+  background-color: #0f60ff !important;
+}
+
+.label-btn:hover {
+  background-color: #015cbd !important;
+}
+
+.add-label-btn {
+  padding: 0 1em;
+  background-color: transparent;
+  color: #0f60ff;
+  border: none;
+  vertical-align: middle;
+}
+
+.add-label-btn:hover {
+  background-color: transparent;
+  color: #015cbd;
+  outline: none;
+}
+
+.add-label-btn:focus {
+  color: #015cbd;
+  outline: none;
+}

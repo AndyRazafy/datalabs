@@ -1,0 +1,52 @@
+.annotation-fixed-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.setting-info-div {
+  padding: 0.5em 0;
+}
+
+.setting-btn-div {
+  padding: 0.4em 0;
+  text-align: right;
+}
+
+.setting-btn {
+  margin: 0 0.5em;
+  padding: 0.7em 0.4em;
+  padding-bottom: 0;
+  background-color: unset;
+  border: none;
+  vertical-align: middle;
+}
+
+.setting-btn:active, .setting-btn:hover {
+  color: #007bff;
+}
+
+.setting-btn:focus {
+  color: #ffffff;
+}
+
+.setting-btn:disabled {
+  opacity: 0.3;
+}
+
+.setting-btn:focus {
+  outline: none;
+  border: none;
+}
+
+.setting-info-span {
+  margin: 0 0.8em;
+}
+
+.setting-info-select select {
+  color: #000000;
+}

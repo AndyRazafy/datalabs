@@ -1,0 +1,15 @@
+.Row {
+  margin-top: 2em;
+}
+
+.create-dataset-container {
+  margin-top: 2em !important;
+  margin-bottom: 0 !important;
+  padding: 2em !important;
+  border: 2px solid #eeeeee;
+}
+
+.form-title {
+  margin: 0 0 0.67em 0 !important;
+  border-bottom: 1px solid #eeeeee;
+}

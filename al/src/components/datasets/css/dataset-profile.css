@@ -1,0 +1,21 @@
+.profile-container {
+  margin-top: 1em !important;
+  padding: 2em !important;
+  border: 2px solid #eeeeee;
+}
+.profile-header-label {
+  margin: 0;
+}
+.profile-header-info {
+  margin: 0;
+}
+.right {
+  text-align: right;
+}
+.profile-nav {
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+.profile-nav-link {
+  padding: 0 0.5em;
+}

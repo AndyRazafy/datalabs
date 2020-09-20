@@ -1,0 +1,79 @@
+.doc-div {
+  background-color: #ffffff;
+  line-height: 2em;
+}
+
+.document {
+  padding: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  border-bottom: 2px solid #aaaaaa;
+}
+
+.text-container {
+  margin-bottom: 0;
+  padding-left: 0.5em;
+}
+
+.doc-ready {
+  background-color: #eeeeee;
+  color: #808088;
+}
+
+.check-ready {
+  text-align: center;
+}
+
+.doc-ready > .delete-mark-btn {
+  display: none;
+}
+
+.mark {
+  margin: 0 0.2em;
+  padding: 0.1em 0.1em;
+  background-color: #ffd18d;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.mark-not-active {
+  opacity: 0.4;
+  border-bottom: none;
+  background-color: unset;
+}
+
+.mark-not-active > .delete-mark-btn {
+  display: none;
+}
+
+.mark-label {
+  margin-left: 0.6em;
+  padding: 0 0.4em;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.delete-mark-btn {
+  padding: 0 0.2em;
+  color: #f00;
+  vertical-align: middle;
+}
+
+.delete-mark-btn:hover {
+  cursor: pointer;
+}
+
+.doc-empty-content-container {
+  padding: 4em;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.dts-container {
+  margin-top: 1em;
+}
+
+.dts-content {
+  margin-top: 0.5em;
+  border-top: 1px solid #eee;
+}
+
+thead {
+  border-bottom: 2px solid #000000;
+}
+
+thead th {
+  padding: 0.7em 0;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+tbody td {
+  padding: 0.7em 0;
+  font-weight: normal;
+}
+
+.dts-empty-content-container {
+  padding: 4em;
+  text-align: center;
+}
+
+.dts-empty-content-container p {
+  margin: 0;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+  color: #ff0000;
+}
