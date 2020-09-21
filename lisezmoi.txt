@@ -1,0 +1,15 @@
+Pour démarrer l'API de la base de données, suivez les étapes suivantes:
+1. ouvrez l'invite de commandes
+2. tapez cd /webservice
+3. tapez node server.js
+
+Pour démarrer l'API de création, d'entrainement de modèle et de prédiction de labels, suivez les étapes suivantes:
+1. ouvrez l'invite de commandes
+2. tapez cd /nlp
+3. tapez $env:FLASK_APP="routes.py"
+4. tapez flask run
+
+Pour démarrer l'application d'annotation de texte, suivez les étapes suivantes:
+1. ouvrez l'invite de commandes
+2. tapez cd /al
+3. tapez npm start
